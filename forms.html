@@ -7,7 +7,7 @@
 
 <form>
  <label for="name">Name</label>
-<input type="text" name="name" id="name" required>
+<input type="text" name="name" id="name" required placeholder="enter your name">
 <br><br>
 
 <label for="email">Email</label>
@@ -16,7 +16,7 @@
 <br><br>
 
 <label for="music">Type of music</label>
-<select id="music">
+<select id="music" name="music">
 
 	<option value="Rock">Rock</option>
 	<option value="jazy">Jazy</option>
@@ -30,13 +30,49 @@
 <label>password</label>
 <input type="password" name="password" id="password" required>
 <br><br>
+<label>Choose as many sport as you want</label><br>
+<label for="soccer">Soccer</label>
+<input type="checkbox" name="sport[]" value="Soccer" id="soccer">
+<br>
+<label for="golf">golf</label>
+<input type="checkbox" name="sport[]" value="golf" id="golf">
+<br>
+<label for="tennis">tennis</label>
+<input type="checkbox" name="sport[]" value="tennis" id="tennis">
+<br>
+<label for="wrestling">wrestling</label>
+<input type="checkbox" name="sport[]" value="wrestling" id="wrestling">
+<br>
+<label for="swimming">swimming</label>
+<input type="checkbox" name="sport[]" value="swimming" id="swimming">
 
+<br><br>
+<label for="date">Date of birth</label>
+<input type="date" name="date" id="date" required>
+<br><br>
+
+<label for="number">what's number</label>
+<input type="number" name="number" id="number" required>
+<br><br>
+<label for="gender">Gender</label><br>
+<input type="radio" name="gender" id="male" value="Male">
+<label for="male">Male</label><br>
+
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">female</label><br>
+
+<input type="radio" name="gender" id="other" value="other">
+<label for="other">other</label>
+<br><br>
+<label for="message">Leave a comment</label>
+<textarea name="massage" id="message"></textarea>
+
+<br><br>
 <input type="submit" name="submit">
 
 
-
 </form>
-
+<br><br><br><br><br><br>
 
 </body>
 </html>
