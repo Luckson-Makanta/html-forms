@@ -2,20 +2,27 @@
 <html>
 <head>
 	<title>Forms</title>
+	
+	<style>
+    
+        form{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
 <form>
- <label for="name">Name</label>
+ <label for="name">Name</label><br>
 <input type="text" name="name" id="name" required placeholder="enter your name">
 <br><br>
 
-<label for="email">Email</label>
+<label for="email">Email</label><br>
 <input type="email" name="mail" id="email" required>
 
 <br><br>
 
-<label for="music">Type of music</label>
+<label for="music">Type of music</label><br>
 <select id="music" name="music">
 
 	<option value="Rock">Rock</option>
@@ -27,7 +34,7 @@
 </select>
 <br><br>
 
-<label>password</label>
+<label>password</label><br>
 <input type="password" name="password" id="password" required>
 <br><br>
 <label>Choose as many sport as you want</label><br>
@@ -47,11 +54,11 @@
 <input type="checkbox" name="sport[]" value="swimming" id="swimming">
 
 <br><br>
-<label for="date">Date of birth</label>
+<label for="date">Date of birth</label><br>
 <input type="date" name="date" id="date" required>
 <br><br>
 
-<label for="number">what's number</label>
+<label for="number">WhatsApp number</label><br>
 <input type="number" name="number" id="number" required>
 <br><br>
 <label for="gender">Gender</label><br>
@@ -64,7 +71,7 @@
 <input type="radio" name="gender" id="other" value="other">
 <label for="other">other</label>
 <br><br>
-<label for="message">Leave a comment</label>
+<label for="message">Leave a comment</label><br>
 <textarea name="massage" id="message"></textarea>
 
 <br><br>
